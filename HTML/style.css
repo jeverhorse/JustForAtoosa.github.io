@@ -1,0 +1,312 @@
+.overlay {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.overlay .frame-overlay {
+  background-color: #000000;
+  width: 316px;
+  height: 540px;
+}
+
+.overlay .overlap-group {
+  position: relative;
+  height: 540px;
+  background-image: url(./img/overlay-frame.svg);
+  background-size: 100% 100%;
+}
+
+.overlay .overlay-text {
+  position: absolute;
+  width: 220px;
+  top: 49px;
+  left: 46px;
+  font-family: "B Traffic-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  direction: rtl;
+}
+
+.main {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.main .frame-main {
+  
+  background-color: #000000;
+  width: 393px;
+  height: 852px;
+}
+
+.main .overlap {
+  position: relative;
+  width: 381px;
+  height: 808px;
+  top: 22px;
+  left: 1px;
+}
+
+.main .main-frame {
+  position: absolute;
+  width: 373px;
+  height: 808px;
+  top: 0;
+  left: 0;
+}
+
+.main .PIC-sky {
+  position: absolute;
+  width: 148px;
+  height: 148px;
+  top: 32px;
+  left: 39px;
+  object-fit: cover;
+}
+
+.main .radarframe {
+  position: absolute;
+  width: 297px;
+  height: 297px;
+  top: 32px;
+  left: 39px;
+  background-color: #5aa7b814;
+  border-radius: 148.5px;
+  border: 1px solid;
+  border-color: #12e2ff;
+  box-shadow: 0px 0px 15px #1668b4;
+}
+
+.main .rader {
+  position: absolute;
+  width: 15px;
+  height: 151px;
+  top: 40px;
+  left: 180px;
+  /* transform: rotate(0deg); */
+  
+}
+@keyframes group { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+
+.overlap-group { animation-name: group; animation-duration: 2s; animation-iteration-count: infinite; animation-timing-function: linear; }
+.main .overlap-group {
+  position: relative;
+  height: 151px;
+  transform-origin: 50% 95%;
+}
+
+.main .rectangle {
+  position: absolute;
+  width: 3px;
+  height: 151px;
+  top: 0;
+  left: 6px;
+  background-color: #0082cc;
+  border-radius: 3px;
+  box-shadow: 0px -4px 10px #66b5ff;
+}
+
+.main .ellipse {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 136px;
+  left: 0;
+  background-color: #0082cc;
+  border-radius: 7.5px;
+  box-shadow: 0px 0px 15px #1668b4cc;
+}
+
+.main .b-active-btn {
+  position: absolute;
+  width: 76px;
+  height: 78px;
+  top: 730px;
+  left: 300px;
+}
+
+.main .t-birthday {
+  position: absolute;
+  width: 437px;
+  top: 478px;
+  left: 140px;
+  transform: rotate(-90deg);
+  text-shadow: 0px 0px 15px #00e0ff;
+  font-family: "Orbitron", Helvetica;
+  font-weight: 400;
+  color: #1697b3;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .t-created-by {
+  position: absolute;
+  width: 60px;
+  top: 50px;
+  left: -6px;
+  transform: rotate(-90deg);
+  font-family: "Orbitron", Helvetica;
+  font-weight: 900;
+  color: #1697b3;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .t-matin {
+  position: absolute;
+  width: 84px;
+  top: 26px;
+  left: 34px;
+  font-family: "Orbitron", Helvetica;
+  font-weight: 900;
+  color: #1697b3;
+  font-size: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .t-realdate-calced {
+  position: absolute;
+  width: 250px;
+  top: 455px;
+  left: -107px;
+  transform: rotate(-90deg);
+  text-shadow: 0px 0px 15px #74e3fc;
+  font-family: "Orbitron", Helvetica;
+  font-weight: 400;
+  color: #1697b3;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .t {
+  position: absolute;
+  width: 268px;
+  top: 681px;
+  left: 48px;
+  font-family: "Changa", Helvetica;
+  font-weight: 500;
+  color: #81c5d4;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: -0.18px;
+  line-height: normal;
+  direction: rtl;
+}
+
+.main .text-wrapper {
+  position: absolute;
+  width: 268px;
+  top: 565px;
+  left: 51px;
+  font-family: "Changa", Helvetica;
+  font-weight: 500;
+  color: #81c5d4;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: -0.36px;
+  line-height: normal;
+  direction: rtl;
+}
+
+.main .div {
+  position: absolute;
+  width: 265px;
+  top: 347px;
+  left: 52px;
+  font-family: "B Traffic-Bold", Helvetica;
+  font-weight: 700;
+  color: #1697b3;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  direction: rtl;
+}
+
+.main .div-2 {
+  position: absolute;
+  width: 28px;
+  height: 6px;
+  top: 404px;
+  left: 175px;
+}
+
+.main .ellipse-2 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 0;
+  background-color: #12e2ff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px #16b37b;
+}
+
+.main .ellipse-3 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 11px;
+  background-color: #12e2ff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px #16b37b;
+}
+
+.main .ellipse-4 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 22px;
+  background-color: #12e2ff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px #16b37b;
+}
+
+.main .div-3 {
+  position: absolute;
+  width: 28px;
+  height: 6px;
+  top: 533px;
+  left: 175px;
+}
+
+.main .div-4 {
+  position: absolute;
+  width: 28px;
+  height: 6px;
+  top: 661px;
+  left: 175px;
+}
+
+.main .p {
+  position: absolute;
+  width: 285px;
+  top: 433px;
+  left: 42px;
+  font-family: "Changa", Helvetica;
+  font-weight: 500;
+  color: #81c5d4;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: -0.15px;
+  line-height: normal;
+  direction: rtl;
+}
